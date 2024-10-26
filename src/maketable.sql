@@ -1,0 +1,9 @@
+CREATE TABLE recipes_data (
+	title VARCHAR(310), 
+	ingredients VARCHAR(11018) NOT NULL, 
+	directions VARCHAR(14979) NOT NULL, 
+	link VARCHAR(360) NOT NULL, 
+	source VARCHAR(9) NOT NULL, 
+	`NER` VARCHAR(2556) NOT NULL, 
+	site VARCHAR(23) NOT NULL
+);
